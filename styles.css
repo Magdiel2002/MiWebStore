@@ -4,24 +4,6 @@ body{
     font-family: 'Protest Riot', sans-serif;
 }
 
-.button-add{
-    
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    padding: 15px 100px;
-    text-align: center;
-    transition-duration: 0.4s;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-}
-  
-.button-add:hover {
-    background-color: #04AA6D; /* Green */
-    color: white;
-}
-
 .page-nav{
     background-color: #2196F3;
     border: 1px solid black;
@@ -38,19 +20,50 @@ body{
     border: 1px solid red;
 }
 
-
 .product-container{
-    text-align: center;
-    margin-left: 15px;
-    padding: 10px 16px;
+    font-size: 16px;
+    text-align: left;
+    margin: 15px;
+    padding: 10px 15px;  /*10px 16px*/
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
 }
 
 .product-container:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
 
 .product-container img{
     width: 300px;
 }
 
+.product-container h1{
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.button-add{
+    border: none;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #4CAF50;
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+  
+.button-add:hover {
+    background-color: #1b8124; /* Green */
+    color: white;
+}
