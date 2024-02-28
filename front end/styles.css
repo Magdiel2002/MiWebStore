@@ -12,6 +12,7 @@ button {
 }
 
 .button-checkout {
+    margin: 10px;
     background-color: white;
     color: black;
     border: 2px solid #008CBA;
@@ -33,14 +34,17 @@ button {
 }
 
 .page-nav h1{
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .page-content { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid red;
 }
 
 .product-container{

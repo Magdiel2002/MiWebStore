@@ -4,6 +4,7 @@
 
     <link href="https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900|Nunito:ital,wght@0,200..1000;1,200..1000" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
 
@@ -11,8 +12,8 @@
 <body>
 
     <div class="page-nav">
-        <h1>MagStore</h1>
-        <button class="button-checkout">Pagar</button>
+        <h1>|| WEB STORE ||</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
     </div>
 
     <div class="page-content">
@@ -22,7 +23,7 @@
             <h3>Master Race</h3>
             <img src="images/product-1.jpg" >
             <h1>$25,000</h1>
-            <button class="button-add">Agregar</button>
+            <button class="button-add" onclick="add('product-1', 25000)">Agregar</button>
         </div>
 
 
@@ -30,7 +31,7 @@
             <h3>Play Station 5</h3>
             <img src="images/product-2.jpg" >
             <h1>$11,000</h1>
-            <button class="button-add">Agregar</button>
+            <button class="button-add" onclick="add('product-2', 11000)">Agregar</button>
         </div>
 
 
@@ -38,14 +39,14 @@
             <h3>Xbox Series X</h3>
             <img src="images/product-3.jpg" >
             <h1>$11,000</h1>
-            <button class="button-add">Agregar</button>
+            <button class="button-add" onclick="add('product-3', 11000)">Agregar</button>
         </div>
     
         <div class="product-container">
             <h3>Nintendo Switch Oled</h3>
             <img src="images/product-4.jpg">
             <h1>$9,000</h1>
-            <button class="button-add">Agregar</button>
+            <button class="button-add" onclick="add('product-4', 9000)">Agregar</button>
         </div>
     
     
@@ -53,14 +54,14 @@
             <h3>Iphone</h3>
             <img src="images/product-5.jpg">
             <h1>$5,000</h1>
-            <button class="button-add">Agregar</button>
+            <button class="button-add" onclick="add('product-5', 5000)">Agregar</button>
         </div>
     
         <div class="product-container">
             <h3>Silla Razer</h3>
             <img src="images/product-6.jpg" >
             <h1>$3,000</h1>
-            <button class="button-add">Agregar</button>
+            <button class="button-add" onclick="add('product-6', 3000)">Agregar</button>
         </div>
 
     </div>
