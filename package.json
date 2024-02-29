@@ -1,0 +1,13 @@
+{
+  "name": "webstore",
+  "version": "1.0.0",
+  "description": "Web Store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "th3mglv@gmail.com",
+  "license": "ISC"
+}
